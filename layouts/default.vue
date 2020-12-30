@@ -3,7 +3,7 @@
     class="font-main bg-blueGray-100 dark:bg-blueGray-900 text-main-500 dark:text-main-100 grid grid-layout min-h-screen"
   >
     <header
-      class="flex flex-col sm:flex-row sm:justify-between items-center p-2 w-full bg-blueGray-200 dark:bg-blueGray-800 z-50"
+      class="flex flex-row justify-between items-center p-2 w-full bg-blueGray-200 dark:bg-blueGray-800 z-50"
     >
       <nuxt-link to="/" class="rounded-lg px-2 py-1 hover:text-violet-500">
         <h1 class="text-lg font-bold flex items-center">

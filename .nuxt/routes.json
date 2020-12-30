@@ -1,0 +1,30 @@
+[
+  {
+    "name": "index___en",
+    "path": "/en",
+    "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
+  },
+  {
+    "name": "index___es",
+    "path": "/es",
+    "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
+  },
+  {
+    "name": "index___pt",
+    "path": "/pt",
+    "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
+  },
+  {
+    "name": "index___es___default",
+    "path": "/",
+    "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
+  }
+]
