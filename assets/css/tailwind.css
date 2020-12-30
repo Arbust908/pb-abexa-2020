@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/CenturyGothicStd.otf');
+  src: url('/fonts/CenturyGothicStd.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
+  display: swap;
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/CenturyGothicStd-Bold.otf');
+  src: url('/fonts/CenturyGothicStd-Bold.otf') format('opentype');
+  font-style: normal;
+  font-weight: bold;
+  display: swap;
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/CenturyGothicStd-Italic.otf');
+  src: url('/fonts/CenturyGothicStd-Italic.otf') format('opentype');
+  font-style: italic;
+  font-weight: normal;
+  display: swap;
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/CenturyGothicStd-BoldItalic.otf');
+  src: url('/fonts/CenturyGothicStd-BoldItalic.otf') format('opentype');
+  font-style: italic;
+  font-weight: bold;
+  display: swap;
+}
