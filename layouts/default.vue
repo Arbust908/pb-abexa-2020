@@ -27,8 +27,9 @@
         <a
           class="transform transition duration-150 inline-block hover:opacity-75 hover:scale-105 hover:translate-x-1"
           href="mailto:info@abexa.com"
-          >info@abexa.com</a
         >
+          info@abexa.com
+        </a>
       </span>
       <div
         class="w-full h-1 bg-gradient-to-r from-main-700 via-main-500 to-main-700"
