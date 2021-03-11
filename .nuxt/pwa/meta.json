@@ -26,11 +26,6 @@
       "content": "Abexa || yo@panchoblanco.com"
     },
     {
-      "hid": "description",
-      "name": "description",
-      "content": "## Build Setup"
-    },
-    {
       "hid": "og:type",
       "name": "og:type",
       "property": "og:type",
@@ -47,12 +42,6 @@
       "name": "og:site_name",
       "property": "og:site_name",
       "content": "Abexa"
-    },
-    {
-      "hid": "og:description",
-      "name": "og:description",
-      "property": "og:description",
-      "content": "## Build Setup"
     }
   ],
   "link": [
@@ -67,7 +56,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.fee29aff.json",
+      "href": "/_nuxt/manifest.a2811a11.json",
       "hid": "manifest"
     }
   ],

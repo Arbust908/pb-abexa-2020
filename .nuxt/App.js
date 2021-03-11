@@ -3,12 +3,16 @@ import Vue from 'vue'
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
 import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtBuildIndicator from './components/nuxt-build-indicator'
+
+import '..\\node_modules\\@fortawesome\\fontawesome-svg-core\\styles.css'
 
 import '..\\assets\\css\\tailwind.css'
 
+import _6c3374f9 from './layouts.tw.348fd92c.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_tw": sanitizeComponent(_6c3374f9),"_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {
@@ -43,7 +47,7 @@ export default {
       }
     }, [
       loadingEl,
-
+      h(NuxtBuildIndicator),
       transitionEl
     ])
   },
@@ -179,6 +183,10 @@ export default {
     },
 
     setLayout (layout) {
+      if(layout && typeof layout !== 'string') {
+        throw new Error('[nuxt] Avoid using non-string value as layout property.')
+      }
+
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }

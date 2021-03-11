@@ -73,6 +73,7 @@ module.exports = {
       },
       fontFamily: {
         main: 'Century Gothic',
+        text: 'Inter',
       },
     },
   },

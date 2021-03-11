@@ -1,4 +1,34 @@
 {
+  "AcordionCases": {
+    "description": "Auto imported from components/AcordionCases.vue"
+  },
+  "LazyAcordionCases": {
+    "description": "Auto imported from components/AcordionCases.vue"
+  },
+  "Carousel": {
+    "description": "Auto imported from components/Carousel.vue"
+  },
+  "LazyCarousel": {
+    "description": "Auto imported from components/Carousel.vue"
+  },
+  "ClientLogo": {
+    "description": "Auto imported from components/ClientLogo.vue"
+  },
+  "LazyClientLogo": {
+    "description": "Auto imported from components/ClientLogo.vue"
+  },
+  "CustomDropdown": {
+    "description": "Auto imported from components/CustomDropdown.vue"
+  },
+  "LazyCustomDropdown": {
+    "description": "Auto imported from components/CustomDropdown.vue"
+  },
+  "Flag": {
+    "description": "Auto imported from components/Flag.vue"
+  },
+  "LazyFlag": {
+    "description": "Auto imported from components/Flag.vue"
+  },
   "Iso": {
     "description": "Auto imported from components/Iso.vue"
   },
@@ -11,10 +41,46 @@
   "LazyIsologo": {
     "description": "Auto imported from components/Isologo.vue"
   },
+  "LanguageButton": {
+    "description": "Auto imported from components/LanguageButton.vue"
+  },
+  "LazyLanguageButton": {
+    "description": "Auto imported from components/LanguageButton.vue"
+  },
+  "LanguageChanger": {
+    "description": "Auto imported from components/LanguageChanger.vue"
+  },
+  "LazyLanguageChanger": {
+    "description": "Auto imported from components/LanguageChanger.vue"
+  },
+  "LogoFull": {
+    "description": "Auto imported from components/LogoFull.vue"
+  },
+  "LazyLogoFull": {
+    "description": "Auto imported from components/LogoFull.vue"
+  },
   "ModeToggler": {
     "description": "Auto imported from components/ModeToggler.vue"
   },
   "LazyModeToggler": {
     "description": "Auto imported from components/ModeToggler.vue"
+  },
+  "SectionTitle": {
+    "description": "Auto imported from components/SectionTitle.vue"
+  },
+  "LazySectionTitle": {
+    "description": "Auto imported from components/SectionTitle.vue"
+  },
+  "IconChevronDown": {
+    "description": "Auto imported from components/Icons/IconChevronDown.vue"
+  },
+  "LazyIconChevronDown": {
+    "description": "Auto imported from components/Icons/IconChevronDown.vue"
+  },
+  "IconLanguage": {
+    "description": "Auto imported from components/Icons/IconLanguage.vue"
+  },
+  "LazyIconLanguage": {
+    "description": "Auto imported from components/Icons/IconLanguage.vue"
   }
 }

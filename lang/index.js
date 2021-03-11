@@ -1,5 +1,5 @@
 module.exports = {
   es: require('./es'),
-  en: require('./en'),
+  en: require('./us'),
   pt: require('./pt'),
 }

@@ -1,9 +1,12 @@
 // import getRoutes from './utils/getRoutes'
 
+// console.log('ENV', process.env)
+
 export default {
   // -
   server: {
     port: 3088,
+    // port: process.env.port,
     host: '0.0.0.0',
   },
   // https://www.npmjs.com/package/@nuxtjs/sitemap
@@ -129,6 +132,12 @@ export default {
       { rel: 'apple-touch-icon', href: '/favicon-180.png', sizes: '180x180' },
       { rel: 'icon', href: '/favicon-96.png', sizes: '96x96' },
       { rel: 'icon', href: '/favicon-192.png', sizes: '192x192' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap',
+      },
     ],
   },
 
@@ -139,7 +148,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/carouse' },
+    { src: '~/plugins/clickOutsideDirective', ssr: false },
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -164,6 +176,33 @@ export default {
     'nuxt-i18n',
     // https://github.com/vanhoofmaarten/nuxt-mq
     'nuxt-mq',
+    // Doc: https://www.npmjs.com/package/nuxt-fontawesome
+    [
+      'nuxt-fontawesome',
+      {
+        imports: [
+          // import whole set
+          {
+            set: '@fortawesome/pro-solid-svg-icons',
+            icons: ['fas'],
+          },
+          {
+            set: '@fortawesome/pro-light-svg-icons',
+            icons: ['fal'],
+          },
+          {
+            set: '@fortawesome/pro-regular-svg-icons',
+            icons: ['far'],
+          },
+          {
+            set: '@fortawesome/pro-duotone-svg-icons',
+            icons: ['fad'],
+          },
+        ],
+      },
+    ],
+    // Doc: https://github.com/nuxt-community/dotenv-module
+    '@nuxtjs/dotenv',
   ],
   // https://color-mode.nuxtjs.org/
   colorMode: {
@@ -185,15 +224,15 @@ export default {
     vueI18nLoader: true,
     locales: [
       { name: 'Español', code: 'es', iso: 'es', file: 'es.js' },
-      { name: 'English', code: 'en', iso: 'en', file: 'en.js' },
-      { name: 'Portuges', code: 'pt', iso: 'pt', file: 'pt.js' },
+      { name: 'English', code: 'us', iso: 'en', file: 'us.js' },
+      { name: 'Português', code: 'pt', iso: 'pt', file: 'pt.js' },
     ],
     defaultLocale: process.env.APP_LANG || 'es',
     lazy: true,
     // langDir: 'lang/',
     // strategy: 'no_prefix',
     strategy: 'prefix_and_default',
-    detectBrowserLanguage: false,
+    detectBrowserLanguage: true,
     baseUrl: 'https://www.abexa.com',
     vueI18n: {
       fallbackLocale: 'es',
