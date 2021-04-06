@@ -16,6 +16,9 @@ config.autoAddCss = false
     import  { fad as fortawesomeproduotonesvgicons_fad } from '@fortawesome/pro-duotone-svg-icons'
     library.add(fortawesomeproduotonesvgicons_fad)
 
+    import  { fab as fortawesomefreebrandssvgicons_fab } from '@fortawesome/free-brands-svg-icons'
+    library.add(fortawesomefreebrandssvgicons_fab)
+
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('font-awesome-layers', FontAwesomeLayers)
 Vue.component('font-awesome-layers-text', FontAwesomeLayersText)

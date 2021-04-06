@@ -5,13 +5,13 @@
     <swiper-slide>Slide 3</swiper-slide>
     <swiper-slide>Slide 4</swiper-slide>
     <swiper-slide>Slide 5</swiper-slide>
-    <div class="swiper-pagination" slot="pagination"></div>
+    <div slot="pagination" class="swiper-pagination"></div>
   </swiper>
 </template>
 
 <script>
 export default {
-  name: 'carrousel',
+  name: 'Carrousel',
   data() {
     return {
       swiperOptions: {

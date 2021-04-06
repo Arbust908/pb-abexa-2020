@@ -198,6 +198,10 @@ export default {
             set: '@fortawesome/pro-duotone-svg-icons',
             icons: ['fad'],
           },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['fab'],
+          },
         ],
       },
     ],

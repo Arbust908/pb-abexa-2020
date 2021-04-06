@@ -8,7 +8,10 @@ export { default as Isologo } from '../..\\components\\Isologo.vue'
 export { default as LanguageButton } from '../..\\components\\LanguageButton.vue'
 export { default as LanguageChanger } from '../..\\components\\LanguageChanger.vue'
 export { default as LogoFull } from '../..\\components\\LogoFull.vue'
+export { default as LogoLink } from '../..\\components\\LogoLink.vue'
 export { default as ModeToggler } from '../..\\components\\ModeToggler.vue'
+export { default as NavMenuDesk } from '../..\\components\\NavMenuDesk.vue'
+export { default as NavMenuMobile } from '../..\\components\\NavMenuMobile.vue'
 export { default as SectionTitle } from '../..\\components\\SectionTitle.vue'
 export { default as IconChevronDown } from '../..\\components\\Icons\\IconChevronDown.vue'
 export { default as IconLanguage } from '../..\\components\\Icons\\IconLanguage.vue'
@@ -23,7 +26,10 @@ export const LazyIsologo = import('../..\\components\\Isologo.vue' /* webpackChu
 export const LazyLanguageButton = import('../..\\components\\LanguageButton.vue' /* webpackChunkName: "components_LanguageButton" */).then(c => c.default || c)
 export const LazyLanguageChanger = import('../..\\components\\LanguageChanger.vue' /* webpackChunkName: "components_LanguageChanger" */).then(c => c.default || c)
 export const LazyLogoFull = import('../..\\components\\LogoFull.vue' /* webpackChunkName: "components_LogoFull" */).then(c => c.default || c)
+export const LazyLogoLink = import('../..\\components\\LogoLink.vue' /* webpackChunkName: "components_LogoLink" */).then(c => c.default || c)
 export const LazyModeToggler = import('../..\\components\\ModeToggler.vue' /* webpackChunkName: "components_ModeToggler" */).then(c => c.default || c)
+export const LazyNavMenuDesk = import('../..\\components\\NavMenuDesk.vue' /* webpackChunkName: "components_NavMenuDesk" */).then(c => c.default || c)
+export const LazyNavMenuMobile = import('../..\\components\\NavMenuMobile.vue' /* webpackChunkName: "components_NavMenuMobile" */).then(c => c.default || c)
 export const LazySectionTitle = import('../..\\components\\SectionTitle.vue' /* webpackChunkName: "components_SectionTitle" */).then(c => c.default || c)
 export const LazyIconChevronDown = import('../..\\components\\Icons\\IconChevronDown.vue' /* webpackChunkName: "components_Icons/IconChevronDown" */).then(c => c.default || c)
 export const LazyIconLanguage = import('../..\\components\\Icons\\IconLanguage.vue' /* webpackChunkName: "components_Icons/IconLanguage" */).then(c => c.default || c)

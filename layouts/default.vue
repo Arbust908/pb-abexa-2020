@@ -4,20 +4,18 @@
   >
     <header
       id="top"
-      class="flex flex-row justify-between items-center p-2 w-full bg-blueGray-200 dark:bg-blueGray-800 z-50"
+      class="flex flex-row justify-between items-center p-2 w-full bg-blueGray-200 dark:bg-blueGray-800 z-50 relative overflow-hidden"
     >
-      <nuxt-link to="/" class="rounded-lg px-2 py-1 hover:text-violet-500">
-        <h1 class="text-lg font-bold flex items-center">
-          <Iso class="w-8 h-8 fill-current" />
-        </h1>
-      </nuxt-link>
-      <nav class="flex space-x-3 items-center justify-between mr-4">
-        <ModeToggler class="flex w-8 h-8 items-center justify-center" />
-        <nuxt-link to="/casos">Casos</nuxt-link>
-        <nuxt-link to="/nosotros">Nosotros</nuxt-link>
-        <nuxt-link to="/contactos">Contactos</nuxt-link>
-        <LanguageChanger />
-      </nav>
+      <LogoLink />
+      <NavMenuDesk v-if="$mq !== 'sm'" />
+      <NavMenuMobile
+        v-else
+        :is-opened="openMenu"
+        class="absolute top-0 right-0 mt-4 p-8"
+      />
+      <button v-if="$mq === 'sm'" class="w-12 h-12 text-2xl" @click="openMenu">
+        <font-awesome-icon icon="bars" />
+      </button>
     </header>
     <Nuxt class="z-20" />
     <footer
@@ -45,6 +43,16 @@
     </footer>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      openMenu: false,
+    }
+  },
+}
+</script>
 
 <style>
 html {

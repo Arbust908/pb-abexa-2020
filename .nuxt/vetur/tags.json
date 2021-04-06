@@ -59,11 +59,29 @@
   "LazyLogoFull": {
     "description": "Auto imported from components/LogoFull.vue"
   },
+  "LogoLink": {
+    "description": "Auto imported from components/LogoLink.vue"
+  },
+  "LazyLogoLink": {
+    "description": "Auto imported from components/LogoLink.vue"
+  },
   "ModeToggler": {
     "description": "Auto imported from components/ModeToggler.vue"
   },
   "LazyModeToggler": {
     "description": "Auto imported from components/ModeToggler.vue"
+  },
+  "NavMenuDesk": {
+    "description": "Auto imported from components/NavMenuDesk.vue"
+  },
+  "LazyNavMenuDesk": {
+    "description": "Auto imported from components/NavMenuDesk.vue"
+  },
+  "NavMenuMobile": {
+    "description": "Auto imported from components/NavMenuMobile.vue"
+  },
+  "LazyNavMenuMobile": {
+    "description": "Auto imported from components/NavMenuMobile.vue"
   },
   "SectionTitle": {
     "description": "Auto imported from components/SectionTitle.vue"
