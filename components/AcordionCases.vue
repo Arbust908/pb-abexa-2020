@@ -49,7 +49,7 @@ h4 {
   @apply w-full bg-main-600 text-white text-xl flex justify-between items-center p-4;
 }
 p {
-  width: 65ch;
+  max-width: 65ch;
   @apply mx-auto p-4 origin-top;
 }
 p > br {

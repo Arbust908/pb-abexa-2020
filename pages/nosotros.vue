@@ -1,8 +1,8 @@
 <template>
   <main>
-    <section>
-      <SectionTitle>Nosotros</SectionTitle>
-      <article>
+    <section class="flex flex-wrap group-section">
+      <SectionTitle class="w-full">Nosotros</SectionTitle>
+      <article class="historia">
         <h3>Historia</h3>
         <p>
           Fundada en el año 2000, brinda servicios profesionales a partir de un
@@ -27,10 +27,10 @@
         </p>
       </article>
     </section>
-    <section>
-      <SectionTitle>Principios</SectionTitle>
+    <section class="flex flex-wrap group-section">
+      <SectionTitle class="w-full">Principios</SectionTitle>
       <article>
-        <i>Icono</i>
+        <font-awesome-icon class="text-2xl" icon="lock-alt" />
         <h3>Confidencialidad</h3>
         <p>
           Cuidamos diligentemente la confidencialidad de nuestros clientes en
@@ -39,6 +39,7 @@
         </p>
       </article>
       <article>
+        <font-awesome-icon class="text-2xl" icon="sitemap" />
         <h3>Atención Jerárquica</h3>
         <p>
           <strong>Abexa</strong> garantiza que todo el proceso es llevado a cabo
@@ -46,6 +47,7 @@
         </p>
       </article>
       <article>
+        <font-awesome-icon class="text-2xl" icon="mind-share" />
         <h3>Creatividad</h3>
         <p>
           <strong>Abexa</strong> busca la solución que da mejor respuesta a la
@@ -53,6 +55,7 @@
         </p>
       </article>
       <article>
+        <font-awesome-icon class="text-2xl" icon="file-plus" />
         <h3>Documentación de Nivel</h3>
         <p>
           <strong>Abexa</strong> presenta documentación de estándares de
@@ -142,6 +145,20 @@ export default {
 </script>
 
 <style scoped>
+.group-section > article {
+  @apply w-10/12 mx-auto mb-8;
+}
+article > h3 {
+  @apply text-xl mb-2;
+}
+
+.historia {
+  @apply w-8/12 mx-auto font-bold text-xl;
+}
+.historia > h3 {
+  @apply text-3xl;
+}
+
 section ul {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
@@ -149,5 +166,11 @@ section ul {
 }
 ul > li::before {
   content: '-';
+}
+
+@media screen and (min-width: 768px) {
+  .group-section > article {
+    @apply w-5/12 mx-auto mb-8;
+  }
 }
 </style>

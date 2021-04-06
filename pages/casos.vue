@@ -87,6 +87,11 @@ export default {
 
 <style scoped>
 section > h3 {
-  @apply w-9/12 py-8 mx-auto my-8 text-2xl text-center;
+  @apply w-10/12 py-4 mx-auto my-2 text-lg text-center;
+}
+@media screen and (min-width: 768px) {
+  section > h3 {
+    @apply w-9/12 py-8 my-8 text-2xl;
+  }
 }
 </style>

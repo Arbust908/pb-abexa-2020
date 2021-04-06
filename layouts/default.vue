@@ -1,19 +1,19 @@
 <template>
   <div
-    class="font-text bg-white dark:bg-blueGray-900 text-main-500 dark:text-main-100 grid grid-layout min-h-screen"
+    class="font-text bg-white dark:bg-blueGray-900 text-main-500 dark:text-main-100 grid grid-layout min-h-screen overflow-hidden"
   >
     <header
       id="top"
-      class="flex flex-row justify-between items-center p-2 w-full bg-blueGray-200 dark:bg-blueGray-800 z-50 relative overflow-hidden"
+      class="flex flex-row justify-between items-center p-2 w-full bg-blueGray-200 dark:bg-blueGray-800 z-50 relative"
     >
       <LogoLink />
       <NavMenuDesk v-if="$mq !== 'sm'" />
-      <NavMenuMobile
-        v-else
-        :is-opened="openMenu"
-        class="absolute top-0 right-0 mt-4 p-8"
-      />
-      <button v-if="$mq === 'sm'" class="w-12 h-12 text-2xl" @click="openMenu">
+      <NavMenuMobile v-else class="absolute top-0 right-0 mt-4 p-8" />
+      <button
+        v-if="$mq === 'sm'"
+        class="w-12 h-12 text-2xl"
+        @click="toggleMenu"
+      >
         <font-awesome-icon icon="bars" />
       </button>
     </header>
@@ -45,11 +45,17 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
   data() {
     return {
       openMenu: false,
     }
+  },
+  methods: {
+    ...mapActions({
+      toggleMenu: 'toggleMobileMenu',
+    }),
   },
 }
 </script>
