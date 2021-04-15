@@ -4,7 +4,6 @@ import { normalizeURL } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _87f3f998 = () => interopDefault(import('..\\node_modules\\@nuxtjs\\tailwindcss\\lib\\ui\\pages\\index.vue' /* webpackChunkName: "" */))
 const _73e5ab13 = () => interopDefault(import('..\\pages\\casos.vue' /* webpackChunkName: "pages/casos" */))
 const _4e739a1e = () => interopDefault(import('..\\pages\\contactos.vue' /* webpackChunkName: "pages/contactos" */))
 const _09a812ec = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -28,10 +27,6 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/_tailwind",
-    component: _87f3f998,
-    name: "_tailwind"
-  }, {
     path: "/casos",
     component: _73e5ab13,
     name: "casos___es___default"
