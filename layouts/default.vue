@@ -7,15 +7,15 @@
       class="flex flex-row justify-between items-center p-2 w-full bg-blueGray-200 dark:bg-blueGray-800 z-50 relative"
     >
       <LogoLink />
-      <NavMenuDesk v-if="$mq !== 'sm'" />
-      <NavMenuMobile v-else class="absolute top-0 right-0 mt-4 p-8" />
-      <button
+      <!-- <NavMenuDesk v-if="$mq !== 'sm'" />
+      <NavMenuMobile v-else class="absolute top-0 right-0 mt-4 p-8" /> -->
+      <!-- <button
         v-if="$mq === 'sm'"
         class="w-12 h-12 text-2xl"
         @click="toggleMenu"
       >
         <font-awesome-icon icon="bars" />
-      </button>
+      </button> -->
     </header>
     <Nuxt class="z-20" />
     <footer
