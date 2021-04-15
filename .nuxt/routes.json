@@ -2,126 +2,147 @@
   {
     "name": "_tailwind",
     "path": "/_tailwind",
-    "component": "C:\\Users\\arbus\\Documents\\Pancho\\pb-abexa-2020\\node_modules\\@nuxtjs\\tailwindcss\\lib\\ui\\pages\\index.vue"
+    "component": "C:\\Users\\arbus\\Documents\\Pancho\\pb-abexa-2020\\node_modules\\@nuxtjs\\tailwindcss\\lib\\ui\\pages\\index.vue",
+    "_name": "_87f3f998"
   },
   {
     "name": "casos___es___default",
     "path": "/casos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\casos.vue",
-    "chunkName": "pages/casos"
+    "chunkName": "pages/casos",
+    "_name": "_73e5ab13"
   },
   {
     "name": "contactos___es___default",
     "path": "/contactos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\contactos.vue",
-    "chunkName": "pages/contactos"
+    "chunkName": "pages/contactos",
+    "_name": "_4e739a1e"
   },
   {
     "name": "index___es",
     "path": "/es",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
   },
   {
     "name": "home___es___default",
     "path": "/home",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\home.vue",
-    "chunkName": "pages/home"
+    "chunkName": "pages/home",
+    "_name": "_04cfd196"
   },
   {
     "name": "nosotros___es___default",
     "path": "/nosotros",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\nosotros.vue",
-    "chunkName": "pages/nosotros"
+    "chunkName": "pages/nosotros",
+    "_name": "_1472dcd6"
   },
   {
     "name": "index___pt",
     "path": "/pt",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
   },
   {
     "name": "index___us",
     "path": "/us",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
   },
   {
     "name": "casos___es",
     "path": "/es/casos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\casos.vue",
-    "chunkName": "pages/casos"
+    "chunkName": "pages/casos",
+    "_name": "_73e5ab13"
   },
   {
     "name": "contactos___es",
     "path": "/es/contactos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\contactos.vue",
-    "chunkName": "pages/contactos"
+    "chunkName": "pages/contactos",
+    "_name": "_4e739a1e"
   },
   {
     "name": "home___es",
     "path": "/es/home",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\home.vue",
-    "chunkName": "pages/home"
+    "chunkName": "pages/home",
+    "_name": "_04cfd196"
   },
   {
     "name": "nosotros___es",
     "path": "/es/nosotros",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\nosotros.vue",
-    "chunkName": "pages/nosotros"
+    "chunkName": "pages/nosotros",
+    "_name": "_1472dcd6"
   },
   {
     "name": "casos___pt",
     "path": "/pt/casos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\casos.vue",
-    "chunkName": "pages/casos"
+    "chunkName": "pages/casos",
+    "_name": "_73e5ab13"
   },
   {
     "name": "contactos___pt",
     "path": "/pt/contactos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\contactos.vue",
-    "chunkName": "pages/contactos"
+    "chunkName": "pages/contactos",
+    "_name": "_4e739a1e"
   },
   {
     "name": "home___pt",
     "path": "/pt/home",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\home.vue",
-    "chunkName": "pages/home"
+    "chunkName": "pages/home",
+    "_name": "_04cfd196"
   },
   {
     "name": "nosotros___pt",
     "path": "/pt/nosotros",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\nosotros.vue",
-    "chunkName": "pages/nosotros"
+    "chunkName": "pages/nosotros",
+    "_name": "_1472dcd6"
   },
   {
     "name": "casos___us",
     "path": "/us/casos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\casos.vue",
-    "chunkName": "pages/casos"
+    "chunkName": "pages/casos",
+    "_name": "_73e5ab13"
   },
   {
     "name": "contactos___us",
     "path": "/us/contactos",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\contactos.vue",
-    "chunkName": "pages/contactos"
+    "chunkName": "pages/contactos",
+    "_name": "_4e739a1e"
   },
   {
     "name": "home___us",
     "path": "/us/home",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\home.vue",
-    "chunkName": "pages/home"
+    "chunkName": "pages/home",
+    "_name": "_04cfd196"
   },
   {
     "name": "nosotros___us",
     "path": "/us/nosotros",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\nosotros.vue",
-    "chunkName": "pages/nosotros"
+    "chunkName": "pages/nosotros",
+    "_name": "_1472dcd6"
   },
   {
     "name": "index___es___default",
     "path": "/",
     "component": "C:\\\\Users\\\\arbus\\\\Documents\\\\Pancho\\\\pb-abexa-2020\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_09a812ec"
   }
 ]
